@@ -5,7 +5,7 @@
 <body class="font-sans antialiased">
     <div class="min-h-screen bg-gray-100">
         <main>
-            @include('layouts.dashboard.navbar')
+            {{-- @include('layouts.dashboard.navbar') --}}
             @yield('content')
         </main>
     </div>

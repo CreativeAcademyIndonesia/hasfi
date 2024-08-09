@@ -1,7 +1,11 @@
 import './bootstrap';
 import '../css/app.css'; 
 import 'flowbite';
+// Import ApexCharts
 import ApexCharts from 'apexcharts';
+
+// Membuat ApexCharts tersedia secara global
+window.ApexCharts = ApexCharts;
 import './mitraAnalytics'
 
 

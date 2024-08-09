@@ -1,0 +1,72 @@
+
+/* for Sweet Alert */
+
+.swal-modal{
+    border-radius: 24px;   
+}
+
+.swal-button{
+    padding: 12px 24px;
+    border-radius: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.swal-button:active{
+    transform: scale(0.9);
+}
+
+.swal-button.swal-button--cancel{
+    background-color: rgba(189, 65, 0, 0.2);
+    color: #3d3d3d;
+    outline: 0;
+}
+
+.swal-button.swal-button--cancel:hover{
+    background-color: rgba(189, 65, 0, 0.2);
+    outline-offset: 2px;
+    color: #ff7023;
+}
+
+.swal-button.swal-button--confirm{
+    background-color: #D7252A;
+    color: white;
+    outline: 0;
+}
+
+.swal-button.swal-button--confirm:hover{
+    background-color: rgba(189, 65, 0, 0.2);
+    outline-offset: 2px;
+}
+
+.swal-footer{
+    display: flex;
+    gap: 4px;
+}
+
+.swal-footer .swal-button-container{
+    width: 100%;
+}
+
+.swal-title{
+    color: #3d3d3d;
+    font-size: 24px;
+}
+
+.swal-text{
+    color:#575757;
+    font-size: 12px;
+}
+
+.swal-button.swal-button--confirm{
+    background-color: #D7252A !important;
+    color: #fff !important;
+}
+/* End Sweet Alert */
